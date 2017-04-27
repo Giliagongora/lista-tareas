@@ -67,27 +67,11 @@ function Elementos(userId, id, title, completed){
   this.title = title,
   this.completed = completed
   this.sumar = function(){
-    
+    var nuevo = this.title
+    tarea.push();
   }
 };
 
-
-/*
-function Persona(nombre, nacionalidad, puesto){
-this.nombre=nombre;
-this.nacionalidad=nacionalidad;
-this.puesto=puesto;
-this.saludo=function(){
-console.log("hola "+this.nomnre);
-}
-}
-var blanca = new Persona("Blanca", "Chilezolana","Profesora");
-
-Invocación
-blanca.saludo();
-
-Retorna:  hola Blanca
-*/
 
 
 
