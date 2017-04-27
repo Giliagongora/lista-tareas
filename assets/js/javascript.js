@@ -61,6 +61,33 @@ var res = [
   }
 ];
 
+function Elementos(userId, id, title, completed){
+  this.userId = userId,
+  this.id = id,
+  this.title = title,
+  this.completed = completed
+  this.sumar = function(){
+    
+  }
+};
+
+
+/*
+function Persona(nombre, nacionalidad, puesto){
+this.nombre=nombre;
+this.nacionalidad=nacionalidad;
+this.puesto=puesto;
+this.saludo=function(){
+console.log("hola "+this.nomnre);
+}
+}
+var blanca = new Persona("Blanca", "Chilezolana","Profesora");
+
+Invocación
+blanca.saludo();
+
+Retorna:  hola Blanca
+*/
 
 
 
@@ -69,8 +96,7 @@ res.forEach(function(lista){
     )})
 
 
-
-  function obtenerTarea(){
+function obtenerTarea(){
   var input = document.getElementById("tarea");
 
   var contTarea = document.getElementsByClassName("tarea-list");
